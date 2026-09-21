@@ -1,18 +1,3 @@
-"""
-Método de la bisección: aproximación de raíces con interfaz gráfica (Tkinter).
-
-Cómo escribir la función f(x):
-    - La variable es x                     ->  x^3 - x - 2
-    - Se puede usar ^ o ** para potencias  ->  x^2  ó  x**2
-    - La multiplicación puede ser implícita ->  2x, 3x^2, 2(x+1), (x+1)(x-1)
-    - Funciones: sin, cos, tan, cot, sec, csc, asin, acos, atan, sinh, cosh, tanh,
-                 exp, ln, log10, log2, log(x, base), sqrt, cbrt, abs, floor, ceil
-    - Constantes: pi, e
-
-Al hacer clic en el campo de la función aparece un teclado matemático;
-se oculta al pasar a cualquier otro campo.
-"""
-
 import math
 import re
 import tkinter as tk
