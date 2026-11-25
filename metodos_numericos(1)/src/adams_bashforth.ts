@@ -1,0 +1,1 @@
+mount({ title: 'Menú para multipaso Adams-Bashforth', iter: false, fields: [...ODEF, { id: 'ord', label: 'pasos k (1–4)', def: '4', hint: 'Los primeros k−1 valores se arrancan con RK4' }], cols: ODEC, run: c => multi(c, false) });
